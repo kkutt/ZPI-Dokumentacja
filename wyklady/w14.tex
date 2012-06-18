@@ -3,7 +3,64 @@
 \section{Macierz ryzyka}
 % strona 27
 
-Ten wirtualny warsztat jest beznadziejny.
+Zidentyfikowane ryzyka:
+\begin{enumerate} %nie zmieniać kolejności, bo te liczby są w tabeli!
+\item Nieznajomość wybranego w projekcie języka programowania
+\item Niedyspozycja członka zespołu (choroba, awaria sprzętu)
+\item Awaria repozytorium (svn)
+\item Skrócenie czasu realizacji projektu
+\item Klęska żywiołowa
+\item Problemy merytoryczne związane z brakiem doświadczenia w tematyce projektu
+\item Niespełnienie wymagań jakościowych (błędne działanie na różnych systemach operacyjnych, wolne działanie aplikacji, zawodność)
+\item Zbyt długi czas realizacji projektu
+\item Skończenie się środków z odszkodowania które zostały przeznaczone na projekt
+\item Niemożliwość znalezienia kupca chętnego na projekt po jego zakończeniu
+\item Odejście przed zakończeniem projektu, któregoś z członków grupy projektowej
+\item Otrzymanie innego dużego zlecenia w trakcie prac nad dokończeniem projektu
+\item Przedłużający się proces z inwestorem w sprawie odszkodowania
+\item Ukazanie się we wcześniejszym terminie produktu konkurencyjnej firmy
+\item Wewnętrzna sytuacja w firmie zmuszająca do przeznaczenia środków z odszkodowania na inne cele
+\item Pomimo znalezienia klientów inwestycja nie zwraca się
+\end{enumerate}
+
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|} 
+\multicolumn{3}{|c|}{Szanse} &  & \multicolumn{3}{|c|}{Zagrożenia} \\
+\hline  &  &  & Mocny & 1,10,11 & 3,7,9 &  \\
+\hline  & 4 &  & Umiarkowany & 5,14,15 & 2,6,8 & 13 \\
+\hline  &  &  & Słaby &  & 12,16 &  \\
+\hline Wysokie & Średnie & Niskie &  & Niskie & Średnie & Wysokie \\
+\end{tabular}
+\caption{\textbf{Macierz prawdopodobieństwa dyskretna (trój-poziomowa)}. \mbox{\textit{Prawodopodobieństwo:}} oś pozioma,  \textit{Wpływ:} oś pionowa}
+\label{tab:macierzPrawdopodobienstwa}
+\end{table}
+
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{|c|c|c|c|} 
+\hline Mocny & III & IV & V \\
+\hline Umiarkowany & II & III & IV \\
+\hline Słaby & I & II & III \\
+\hline & Niskie & Średnie & Wysokie \\
+\end{tabular}
+\caption{\textbf{Poziomy ryzyka}}
+\label{tab:poziomyRyzyka}
+\end{table}
+
+
+Definicje poziomów ryzyka:
+\begin{enumerate}[I]
+\item \textbf{Ryzyko tolerowane}. Posiada mały lub żaden efekt na cele projektu. Prawdopodobieństwo jest na tyle małe, że nie ma potrzeby ich rozpatrywania.
+\item \textbf{Ryzyko małe}. Mały wpływ na cele projektu. Prawdopodobieństwo wystąpienia małe w
+związku z tym niezbyt duża koncentracja nad ryzykiem.
+\item \textbf{Ryzyko średnie}. Może wpłynąć na cele projektowe, harmonogram i koszty. Prawdopodobieństwo pojawienia się jest na tyle wysokie, że musi podlegać ścisłej kontroli wszystkich czynników wpływających na ryzyko.
+\item \textbf{Ryzyko wysokie}. Wysokie prawdopodobieństwo pojawienia się, wpływające na cele projektu, koszt i harmonogram. Ryzyko musi podlegać ścisłej kontroli określenia akcji zapobiegawczych.
+\item \textbf{Ryzyko nietolerowane}. To ryzyko należy do najważniejszych zagrożeń i szans w projekcie.
+\end{enumerate}
+
 
 % ===========================================================================
 
