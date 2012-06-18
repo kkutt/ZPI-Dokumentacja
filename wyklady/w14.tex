@@ -1,4 +1,4 @@
-\chapter{Wykład 14. Zarządzanie ryzykiem w projekcie informatycznym}
+﻿\chapter{Wykład 14. Zarządzanie ryzykiem w projekcie informatycznym}
 
 \section{Macierz ryzyka}
 % strona 27
@@ -40,23 +40,25 @@ Na pół roku przed końcem projektu, inwestor wycofuje się z projektu, zarzuca
 \item Zarzucenie projektu, który jest w wysokim stopniu zaawansowania prac jest nieopłacalne
 \end{itemize}
 
+
 Prawdopodobieństwo:  M - małe, S – średnie, D – duże\\
 Wpływ: N - niski, P – poważny, W – wielki
 
 \begin{table}[htb]
 \centering
-\begin{tabular}{c|p{11.5cm}|c|c} 
-Lp. & Opis & Prawdop. & Wpływ \\
- \hline 1 & Zbyt długi czas realizacji projektu & S & P \\
- 2 & Skończenie się środków z odszkodowania które zostały przeznaczone na projekt & S & W \\
- 3 & Niemożliwość znalezienia kupca chętnego na projekt po jego zakończeniu & M & W \\
- 4 & Odejście przed zakończeniem projektu, któregoś z członków grupy projektowej & M & W \\
-5 & Długotrwała choroba kogoś z grupy projektowej & S & P \\
-6 & Otrzymanie innego dużego zlecenia w trakcie prac nad dokończeniem projektu & S & N \\
-7 & Przedłużający się proces z inwestorem w sprawie odszkodowania & D & P \\
-8 & Ukazanie się we wcześniejszym terminie produktu konkurencyjnej firmy & M & P \\
-9 & Wewnętrzna sytuacja w firmie zmuszająca do przeznaczenia środków z odszkodowania na inne cele  & M & P  \\
-10 & Pomimo znalezienia klientów inwestycja nie zwraca się &  S & N  \\
+\begin{tabular}{|c|p{11.5cm}|c|c|} 
+\hlineLp. & Opis & Prawdop. & Wpływ \\
+\hline 1 & Zbyt długi czas realizacji projektu & S & P \\
+\hline 2 & Skończenie się środków z odszkodowania które zostały przeznaczone na projekt & S & W \\
+\hline 3 & Niemożliwość znalezienia kupca chętnego na projekt po jego zakończeniu & M & W \\
+\hline 4 & Odejście przed zakończeniem projektu, któregoś z członków grupy projektowej & M & W \\
+\hline5 & Długotrwała choroba kogoś z grupy projektowej & S & P \\
+\hline6 & Otrzymanie innego dużego zlecenia w trakcie prac nad dokończeniem projektu & S & N \\
+\hline7 & Przedłużający się proces z inwestorem w sprawie odszkodowania & D & P \\
+\hline8 & Ukazanie się we wcześniejszym terminie produktu konkurencyjnej firmy & M & P \\
+\hline9 & Wewnętrzna sytuacja w firmie zmuszająca do przeznaczenia środków z odszkodowania na inne cele  & M & P  \\
+\hline10 & Pomimo znalezienia klientów inwestycja nie zwraca się &  S & N  \\
+\hline
 \end{tabular}
 \caption{\textbf{Analiza jakościowa ryzyka}}
 \label{tab:analizaJakosciowa}
@@ -66,10 +68,11 @@ Lp. & Opis & Prawdop. & Wpływ \\
 
 \begin{table}[!h]
 \centering
-\begin{tabular}{c|c|c|c} Prawdop. \textbackslash Wpływ & Niski & Poważny & Wielki \\
+\begin{tabular}{|c|c|c|c|} \hline Prawdop. \textbackslash Wpływ & Niski & Poważny & Wielki \\
  \hline Duże &  & 7 &  \\
- Średnie & 6,10 & 1,5 & 2 \\
- Małe &  & 8,9  & 3,4  \\
+\hline Średnie & 6,10 & 1,5 & 2 \\
+\hline Małe &  & 8,9  & 3,4  \\
+\hline
 \end{tabular}
 \caption{\textbf{Macierz prawdopodobieństwa}}
 \label{tab:macierzPrawdopodobienstwa}
@@ -85,14 +88,16 @@ Lp. & Opis & Prawdop. & Wpływ \\
 
 \begin{table}[htb]
 \centering
-\begin{tabular}{c|p{7.0cm}|c|c|c|c} 
+\begin{tabular}{|c|p{7.0cm}|c|c|c|c|}
+\hline 
 Lp. & Opis & Prawdop. & Kwota & Wart. efektu finans. \\
  \hline 1 & Zbyt długi czas realizacji projektu & 25\% & 200 000 zł  & 50 000 zł \\
- 2 & Skończenie się środków z odszkodowania które zostały przeznaczone na projekt & 10\% & 150 000 zł & 15 000 zł \\
-3 & Długotrwała choroba kogoś z grupy projektowej &  30\%  & 30 000 zł & 10 000 zł \\
-4 & Przedłużający się proces z inwestorem w sprawie odszkodowania & 50\% & 50 000 zł & 25 000 zł \\
-5 & Wewnętrzna sytuacja w firmie zmuszająca do przeznaczenia środków z odszkodowania na inne cele  & 5\% & 150 000 zł & 7 500 zł  \\
-6 & Pomimo znalezienia klientów inwestycja nie zwraca się &  30\% & 100 000 zł & 30 000 zł  \\
+\hline 2 & Skończenie się środków z odszkodowania które zostały przeznaczone na projekt & 10\% & 150 000 zł & 15 000 zł \\
+\hline 3 & Długotrwała choroba kogoś z grupy projektowej &  30\%  & 30 000 zł & 10 000 zł \\
+\hline 4 & Przedłużający się proces z inwestorem w sprawie odszkodowania & 50\% & 50 000 zł & 25 000 zł \\
+\hline 5 & Wewnętrzna sytuacja w firmie zmuszająca do przeznaczenia środków z odszkodowania na inne cele  & 5\% & 150 000 zł & 7 500 zł  \\
+\hline6 & Pomimo znalezienia klientów inwestycja nie zwraca się &  30\% & 100 000 zł & 30 000 zł  \\
+\hline
 \end{tabular}
 \caption{\textbf{Analiza ilościowa ryzyka}}
 \label{tab:analizaIlosciowa}
